@@ -1,4 +1,4 @@
-class CurrentAccount extends BankAccount1{
+class CurrentAccount extends BankAccount{
 
 
     
