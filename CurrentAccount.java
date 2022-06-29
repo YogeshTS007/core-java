@@ -16,9 +16,7 @@ class CurrentAccount extends BankAccount{
 	
 	
 	
-	
-	
-	 public double deposit(double amt)
+ public double deposit(double amt)
   
   {
    System.out.println("invoke Deposit()");
@@ -73,7 +71,5 @@ class CurrentAccount extends BankAccount{
 	   return interest;
 		   
 	   }
-  
- 
 
 }
