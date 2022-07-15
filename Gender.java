@@ -1,5 +1,5 @@
 enum Gender{
 
-	female , male , transgender
+	Female , Male , Transgender
 	
 }

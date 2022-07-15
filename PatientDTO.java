@@ -1,62 +1,64 @@
 class PatientDTO{
+
+
+public PatientDTO(){
 	
+	System.out.println("the patient details are");
+}
+
+
+
+
 
 	private int id;
-	private String name;
+	private String name ;
 	private String address;
-	private Gender gender;
-	private long contactNumber;
-	private String wardNumber;
+	//private Gender gender;
+	//private long contactNo;
 
-	public PatientDTO(){
-		System.out.println("Patient constructor is called ");
-	}
-	
+
+
 	public int getId(){
-		return id;
+	return id;
 	}
+
 	public void setId(int id){
-		this.id=id;
-	}
+	this.id = id;
+    }
 
-
+	
 	public String getName(){
-		return name;
+	return name;
 	}
-	public void setName(String name){
-		this.name=name;
-	}
-	
-	
+
+	public void setName(String  name){
+	this.name  = name;
+    }
+
 	public String getAddress(){
-		return address;
-	}
-	public void setAddress(String address){
-		this.address=address;
-	}
-	
-	//enum is also an non primitive datatype
-	//enum can be used where there is limited type of data
-	public Gender getGender(){
-		return gender;
-	}
-	public void setGender(Gender gender){
-		this.gender=gender;
+	return address;
 	}
 
-	
-	public long getContactNumber(){
-		return contactNumber;
-	}
-	public void setContactNumber(long contactNumber){
-		this.contactNumber=contactNumber;
+	public void setAddress(String  address){
+	this.address  = address;
+    }
+
+	/*public Gender getGender(){
+	return gender;
 	}
 
-	public String getWardNumber(){
-		return wardNumber;
+	public void setGender (Gender  gender){
+	this.gender  = gender;
+    }*/
+	
+	/*public long getContactNo(){
+	return ContactNo;
 	}
-	public void setWardNumber(String wardNumber){
-		this.wardNumber=wardNumber;
-	}
+
+	public void setContactNo(long contactNo){
+	this.contactNo = contactNo;
+    }*/
+
+
 
 }
